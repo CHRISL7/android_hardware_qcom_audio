@@ -108,7 +108,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <dlfcn.h>
 #include <math.h>
 #include <cutils/properties.h>
-#include <inc/PalApi.h>
+#include "PalApi.h"
 #include "AudioDevice.h"
 
 #ifdef __cplusplus
