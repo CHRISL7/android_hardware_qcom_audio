@@ -74,10 +74,14 @@ LOCAL_C_INCLUDES := \
     external/expat/lib \
     system/media/audio_utils/include \
     $(call include-path-for, audio-route) \
+    vendor/qcom/opensource/agm/ipc/HwBinders/agm_ipc_client/inc \
+    vendor/qcom/opensource/agm/ipc/HwBinders/agm_ipc_service/inc/ \
+    vendor/qcom/opensource/pal/ipc/HwBinders/pal_ipc_server/inc/
 
 LOCAL_HEADER_LIBRARIES += libhardware_headers
 LOCAL_HEADER_LIBRARIES += libsystem_headers
 LOCAL_HEADER_LIBRARIES += libarpal_headers
+LOCAL_HEADER_LIBRARIES += libagm_headers
 include $(BUILD_SHARED_LIBRARY)
 
 #-------------------------------------------
